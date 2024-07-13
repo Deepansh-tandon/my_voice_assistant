@@ -1,7 +1,7 @@
 import google.generativeai as genai
 def get_command(req):
 
-    genai.configure(api_key="AIzaSyCWWtUtBdisAIiOYf2DkRatQb6VyHSWLcQ")
+    genai.configure(api_key="yourkeyhere")
     # Create the model
     # See https://ai.google.dev/api/python/google/generativeai/GenerativeModel
     generation_config = {
